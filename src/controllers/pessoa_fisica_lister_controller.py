@@ -26,7 +26,7 @@ class PessoaFisicaListerController(PessoaFisicaListerControllerInterface):
 
         return {
             "data": {
-                "type": "Pessoas físicias",
+                "type": "Pessoas físicas",
                 "count": len(formated_pessoas_fisicas),
                 "attributes": formated_pessoas_fisicas
             }
